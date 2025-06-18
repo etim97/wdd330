@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="WDD-330 Web front development 11 application for Recipe and Nutrition Tracker">
+<meta name="author" content="Wisdom Samuel Etim">
+<meta property="og:title" content="NutriMate">
+<meta property="og:description" content="Use the Recipe Recommender & Nutrition Tracker to daily Nutritious Recommend.">
+<meta property="og:image" content="https://example.com/hero-image.jpg">
+<meta property="og:url" content="https://NutriMate.com">
+<meta property="og:type" content="website">
+<title>Recipe Recommender & Nutrition Tracker</title>
+<link rel="stylesheet" href="css/nutrition.css">
+<script src="main.js" type="module"></script>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>🍽️ NutriMate</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="Nutrtion Tracker.html">Nutrition Tracker</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Track Your Nutrition</h2>
+      <p>Search foods and log your daily intake.</p>
+      <input type="text" id="searchInput" placeholder="Search food..." />
+      <button id="searchBtn">Search</button>
+    </section>
+
+    <section id="results" class="results">
+      <!-- Food results will appear here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© NutriMate | Wisdom Samuel | Last Updated: <span id="lastUpdated"></span> | <span id="currentTime"></span></p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
