@@ -78,3 +78,67 @@ footer {
   margin-top: 2rem;
 }
 
+/* Mobile view 
+/* --- Responsive Navigation Styles --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-title img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+/* Hide hamburger by default, show on mobile */
+.menu-icon,
+#menu-toggle {
+  display: none;
+}
+
+/* Desktop nav */
+.nav-links {
+  display: flex;
+  gap: 1em;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  #menu-toggle {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #04eded;
+    position: absolute;
+    top: 60px; /* adjust as needed */
+    right: 10px;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 1em;
+    z-index: 100;
+  }
+  .nav-links.open {
+    display: flex;
+  }
+ 
+  .menu-icon {
+    display: block;
+ }
+}
+

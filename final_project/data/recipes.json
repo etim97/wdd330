@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "title": "Avocado Toast",
+        "description": "Quick and healthy breakfast.",
+        "calories": 250,
+        "ingredients": [
+            "Bread",
+            "Avocado",
+            "Lemon",
+            "Salt",
+            "Pepper"
+        ],
+        "prepTime": "5 mins",
+        "cookTime": "0 mins",
+        "diet": "Vegan",
+        "image": "images/avocado-toast.jpg",
+        "servings": 1
+    },
+    {
+        "id": 2,
+        "title": "Grilled Chicken Salad",
+        "description": "Protein-rich salad with fresh vegetables.",
+        "calories": 320,
+        "ingredients": [
+            "Chicken Breast",
+            "Lettuce",
+            "Tomatoes",
+            "Cucumber",
+            "Olive Oil"
+        ],
+        "prepTime": "10 mins",
+        "cookTime": "15 mins",
+        "diet": "Low Carb",
+        "image": "images/chicken-salad.jpg",
+        "servings": 2
+    },
+    {
+        "id": 3,
+        "title": "Oatmeal with Fruits",
+        "description": "Nutritious breakfast bowl.",
+        "calories": 280,
+        "ingredients": [
+            "Oats",
+            "Banana",
+            "Berries",
+            "Almond Milk",
+            "Honey"
+        ],
+        "prepTime": "5 mins",
+        "cookTime": "5 mins",
+        "diet": "Vegetarian",
+        "image": "images/oatmeal-fruits.jpg",
+        "servings": 1
+    },
+    {
+        "id": 4,
+        "title": "Quinoa Veggie Bowl",
+        "description": "Fiber-rich and protein-packed bowl.",
+        "calories": 400,
+        "ingredients": [
+            "Quinoa",
+            "Broccoli",
+            "Carrots",
+            "Bell Peppers",
+            "Chickpeas"
+        ],
+        "prepTime": "15 mins",
+        "cookTime": "20 mins",
+        "diet": "Vegan",
+        "image": "images/quinoa-bowl.jpg",
+        "servings": 2
+    },
+    {
+        "id": 5,
+        "title": "Fruit Smoothie",
+        "description": "Refreshing drink full of nutrients.",
+        "calories": 180,
+        "ingredients": [
+            "Banana",
+            "Strawberries",
+            "Greek Yogurt",
+            "Honey",
+            "Milk"
+        ],
+        "prepTime": "5 mins",
+        "cookTime": "0 mins",
+        "diet": "Vegetarian",
+        "image": "images/fruit-smoothie.jpg",
+        "servings": 1
+    },
+    {
+        "id": 6,
+        "title": "Tofu Stir Fry",
+        "description": "Flavorful tofu with mixed veggies.",
+        "calories": 350,
+        "ingredients": [
+            "Tofu",
+            "Bell Peppers",
+            "Soy Sauce",
+            "Garlic",
+            "Broccoli"
+        ],
+        "prepTime": "10 mins",
+        "cookTime": "15 mins",
+        "diet": "Vegan",
+        "image": "images/tofu-stir-fry.jpg",
+        "servings": 2
+    },
+    {
+        "id": 7,
+        "title": "Turkey Wrap",
+        "description": "Lean turkey in a whole wheat wrap.",
+        "calories": 290,
+        "ingredients": [
+            "Turkey",
+            "Whole Wheat Wrap",
+            "Lettuce",
+            "Tomato",
+            "Mustard"
+        ],
+        "prepTime": "5 mins",
+        "cookTime": "0 mins",
+        "diet": "Low Carb",
+        "image": "images/turkey-wrap.jpg",
+        "servings": 1
+    },
+    {
+        "id": 8,
+        "title": "Lentil Soup",
+        "description": "Warm and hearty soup with lentils.",
+        "calories": 310,
+        "ingredients": [
+            "Lentils",
+            "Carrots",
+            "Onion",
+            "Celery",
+            "Tomato Paste"
+        ],
+        "prepTime": "10 mins",
+        "cookTime": "25 mins",
+        "diet": "Vegan",
+        "image": "images/lentil-soup.jpg",
+        "servings": 3
+    },
+    {
+        "id": 9,
+        "title": "Egg Muffins",
+        "description": "Mini egg muffins for breakfast or snack.",
+        "calories": 220,
+        "ingredients": [
+            "Eggs",
+            "Spinach",
+            "Cheese",
+            "Bell Pepper",
+            "Salt"
+        ],
+        "prepTime": "10 mins",
+        "cookTime": "15 mins",
+        "diet": "Keto",
+        "image": "images/egg-muffins.jpg",
+        "servings": 2
+    },
+    {
+        "id": 10,
+        "title": "Banana Pancakes",
+        "description": "Healthy pancakes with no added sugar.",
+        "calories": 300,
+        "ingredients": [
+            "Banana",
+            "Eggs",
+            "Oats",
+            "Cinnamon",
+            "Baking Powder"
+        ],
+        "prepTime": "10 mins",
+        "cookTime": "10 mins",
+        "diet": "Vegetarian",
+        "image": "images/banana-pancakes.jpg",
+        "servings": 2
+    }
+]

@@ -12,7 +12,7 @@
 <meta property="og:type" content="website">
 <title>Home page NutriMate</title>
 <link rel="stylesheet" href="css/style.css">
-<script src="main.js" type="module"></script>
+<script src="scripts/main.js" type="module"></script>
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
@@ -20,6 +20,10 @@
     <div class="logo">
       <h1>🍽️ NutriMate</h1>
     </div>
+    <div>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+  </div>
     <nav>
       <ul class="nav-links">
         <li><a href="index.html" class="nav-link active">Home</a></li>
@@ -34,10 +38,9 @@
       <div class="hero-content">
         <h2>Eat Smarter, Live Better</h2>
         <p>NutriMate helps you discover healthy recipes and track nutrition to meet your health goals.</p>
-        <a href="#" class="btn">Get Started</a>
+        <a href="nutrition-tracker.html" class="btn">Get Started</a>
       </div>
-      <img src="assets/recipe-nutrition.png" alt="Healthy recipe concept" class="hero-image">
-    </section>
+      </section>
 
     <section class="features">
       <h3>What NutriMate Offers</h3>
@@ -60,7 +63,5 @@
   <footer>
     <p>© NutriMate | Wisdom Samuel| Last Updated: <span id="lastUpdated"></span> | <span id="currentTime"></span></p>
   </footer>
-
-  <script src="main.js"></script>
 </body>
 </html>
